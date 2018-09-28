@@ -1,5 +1,5 @@
 # Redux sibling state interaction
-A method for sibling state communication and interaction in using Redux.
+A method for sibling state communication and interaction in Redux.
 
 #### How it works
 Say you have two or more reducers handling different parts of your state and you need these parts to interact with each other. In this example I have 2 sub-states that are on the same level:
