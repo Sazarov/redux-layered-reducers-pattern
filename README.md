@@ -2,7 +2,7 @@
 A method for nesting reducers in redux.
 
 Our initial state looks like this.
-![alt text](assets/Initial state.png)
+![alt text](assets/Initial-state.png)
 
 ````js
 state= {
@@ -53,7 +53,7 @@ const rootReducer = (state = {}, action) => {
 `rootReducer` handles the entire state. `reducerA` and `reducerB` are nested inside it, and they only have access to their respective state-slices. Now we need to handle an action that
 needs to update both `stateA` and `stateB`.
 
-![alt text](assets/Initial state Copy.png)
+![alt text](assets/state-action.png)
 
 This action is handled by the `rootReducer`:
 
